@@ -1,0 +1,93 @@
+[
+    {
+        "input": "NER output: [('John', 'B-PER'), ('Acme', 'B-ORG'), ('Corp', 'I-ORG'), ('New', 'B-LOC'), ('York', 'I-LOC')] SA output: {'sentiment': 'positive', 'confidence': 0.87} Topic: Technology Generate an alert based on this information:",
+        "output": "Positive sentiment detected for John at Acme Corp in New York with high confidence in the area of Technology."
+    },
+    {
+        "input": "NER output: [('Alice', 'B-PER'), ('TechCorp', 'B-ORG'), ('San', 'B-LOC'), ('Francisco', 'I-LOC')] SA output: {'sentiment': 'negative', 'confidence': 0.95} Topic: Health Generate an alert based on this information:",
+        "output": "Negative sentiment detected for Alice at TechCorp in San Francisco with high confidence in the area of Health."
+    },
+    {
+        "input": "NER output: [('Bob', 'B-PER'), ('Global', 'B-ORG'), ('Industries', 'I-ORG'), ('London', 'B-LOC')] SA output: {'sentiment': 'neutral', 'confidence': 0.72} Topic: Business Generate an alert based on this information:",
+        "output": "Neutral sentiment detected for Bob at Global Industries in London with moderate confidence in the area of Business."
+    },
+    {
+        "input": "NER output: [('Eve', 'B-PER'), ('HealthInc', 'B-ORG'), ('Los', 'B-LOC'), ('Angeles', 'I-LOC')] SA output: {'sentiment': 'positive', 'confidence': 0.89} Topic: Politics Generate an alert based on this information:",
+        "output": "Positive sentiment detected for Eve at HealthInc in Los Angeles with high confidence in the area of Politics."
+    },
+    {
+        "input": "NER output: [('David', 'B-PER'), ('TechSolutions', 'B-ORG'), ('Berlin', 'B-LOC')] SA output: {'sentiment': 'negative', 'confidence': 0.63} Topic: Finance Generate an alert based on this information:",
+        "output": "Negative sentiment detected for David at TechSolutions in Berlin with low confidence in the area of Finance."
+    },
+    {
+        "input": "NER output: [('Mia', 'B-PER'), ('Innovators', 'B-ORG'), ('Inc.', 'I-ORG'), ('Paris', 'B-LOC')] SA output: {'sentiment': 'neutral', 'confidence': 0.58} Topic: Education Generate an alert based on this information:",
+        "output": "Neutral sentiment detected for Mia at Innovators Inc. in Paris with low confidence in the area of Education."
+    },
+    {
+        "input": "NER output: [('Sam', 'B-PER'), ('FastTrack', 'B-ORG'), ('Chicago', 'B-LOC')] SA output: {'sentiment': 'positive', 'confidence': 0.92} Topic: Business Generate an alert based on this information:",
+        "output": "Positive sentiment detected for Sam at FastTrack in Chicago with very high confidence in the area of Business."
+    },
+    {
+        "input": "NER output: [('Linda', 'B-PER'), ('DigitalWave', 'B-ORG'), ('Tokyo', 'B-LOC')] SA output: {'sentiment': 'negative', 'confidence': 0.80} Topic: Technology Generate an alert based on this information:",
+        "output": "Negative sentiment detected for Linda at DigitalWave in Tokyo with high confidence in the area of Technology."
+    },
+    {
+        "input": "NER output: [('Chris', 'B-PER'), ('SkyTech', 'B-ORG'), ('Dubai', 'B-LOC')] SA output: {'sentiment': 'neutral', 'confidence': 0.50} Topic: Technology Generate an alert based on this information:",
+        "output": "Neutral sentiment detected for Chris at SkyTech in Dubai with low confidence in the area of Technology."
+    },
+    {
+        "input": "NER output: [('Tina', 'B-PER'), ('Creative', 'B-ORG'), ('Minds', 'I-ORG'), ('Seattle', 'B-LOC')] SA output: {'sentiment': 'positive', 'confidence': 0.75} Topic: Entertainment Generate an alert based on this information:",
+        "output": "Positive sentiment detected for Tina at Creative Minds in Seattle with moderate confidence in the area of Entertainment."
+    },
+    {
+        "input": "NER output: [('Kevin', 'B-PER'), ('AlphaSystems', 'B-ORG'), ('Madrid', 'B-LOC')] SA output: {'sentiment': 'negative', 'confidence': 0.60} Topic: Finance Generate an alert based on this information:",
+        "output": "Negative sentiment detected for Kevin at AlphaSystems in Madrid with moderate confidence in the area of Finance."
+    },
+    {
+        "input": "NER output: [('Sophia', 'B-PER'), ('EcomTech', 'B-ORG'), ('Sydney', 'B-LOC')] SA output: {'sentiment': 'neutral', 'confidence': 0.68} Topic: Business Generate an alert based on this information:",
+        "output": "Neutral sentiment detected for Sophia at EcomTech in Sydney with moderate confidence in the area of Business."
+    },
+    {
+        "input": "NER output: [('Jake', 'B-PER'), ('TechPioneers', 'B-ORG'), ('Toronto', 'B-LOC')] SA output: {'sentiment': 'positive', 'confidence': 0.95} Topic: Technology Generate an alert based on this information:",
+        "output": "Positive sentiment detected for Jake at TechPioneers in Toronto with high confidence in the area of Technology."
+    },
+    {
+        "input": "NER output: [('Olivia', 'B-PER'), ('QuantumTech', 'B-ORG'), ('Singapore', 'B-LOC')] SA output: {'sentiment': 'negative', 'confidence': 0.82} Topic: Science Generate an alert based on this information:",
+        "output": "Negative sentiment detected for Olivia at QuantumTech in Singapore with high confidence in the area of Science."
+    },
+    {
+        "input": "NER output: [('Nathan', 'B-PER'), ('GreenEnergy', 'B-ORG'), ('Austin', 'B-LOC')] SA output: {'sentiment': 'positive', 'confidence': 0.84} Topic: Health Generate an alert based on this information:",
+        "output": "Positive sentiment detected for Nathan at GreenEnergy in Austin with high confidence in the area of Health."
+    },
+    {
+        "input": "NER output: [('Grace', 'B-PER'), ('SoftWave', 'B-ORG'), ('Vancouver', 'B-LOC')] SA output: {'sentiment': 'neutral', 'confidence': 0.79} Topic: Technology Generate an alert based on this information:",
+        "output": "Neutral sentiment detected for Grace at SoftWave in Vancouver with high confidence in the area of Technology."
+    },
+    {
+        "input": "NER output: [('Liam', 'B-PER'), ('WebFusion', 'B-ORG'), ('London', 'B-LOC')] SA output: {'sentiment': 'negative', 'confidence': 0.77} Topic: Business Generate an alert based on this information:",
+        "output": "Negative sentiment detected for Liam at WebFusion in London with high confidence in the area of Business."
+    },
+    {
+        "input": "NER output: [('Noah', 'B-PER'), ('AeroTech', 'B-ORG'), ('Paris', 'B-LOC')] SA output: {'sentiment': 'positive', 'confidence': 0.70} Topic: Technology Generate an alert based on this information:",
+        "output": "Positive sentiment detected for Noah at AeroTech in Paris with moderate confidence in the area of Technology."
+    },
+    {
+        "input": "NER output: [('Emma', 'B-PER'), ('CloudNine', 'B-ORG'), ('Los', 'B-LOC'), ('Angeles', 'I-LOC')] SA output: {'sentiment': 'negative', 'confidence': 0.66} Topic: Entertainment Generate an alert based on this information:",
+        "output": "Negative sentiment detected for Emma at CloudNine in Los Angeles with low confidence in the area of Entertainment."
+    },
+    
+    {
+        "input": "NER output: [('Lucas', 'B-PER'), ('NanoWorks', 'B-ORG'), ('Boston', 'B-LOC')] SA output: {'sentiment': 'neutral', 'confidence': 0.85} Topic: Technology Generate an alert based on this information:",
+        "output": "Neutral sentiment detected for Lucas at NanoWorks in Boston with high confidence in the area of Technology."
+    },
+
+    {
+        "input": "NER output: [] SA output: {'sentiment': 'neutral', 'confidence': 0.85} Topic: Technology Generate an alert based on this information:",
+        "output": "Neutral sentiment detected with high confidence in the area of Technology."
+    },
+    
+    {
+        "input": "NER output: [] SA output: {'sentiment': 'negative', 'confidence': 0.5} Topic: Business Generate an alert based on this information:",
+        "output": "Negative sentiment detected with moderate confidence in the area of Business."
+    }
+]
